@@ -1,0 +1,55 @@
+{
+    "name": "yish/laravel-curlftp",
+    "description": "The curl-ftp filesystem (the wrapper) with laravel.",
+    "keywords": [
+        "yish",
+        "laravel-curlftp"
+    ],
+    "homepage": "https://github.com/yish/laravel-curlftp",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yish",
+            "email": "mombuartworks@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "5.8.*|^6.0",
+        "vladimir-yuldashev/flysystem-curlftp": "^2.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yish\\LaravelCurlftp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yish\\LaravelCurlftp\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yish\\LaravelCurlftp\\LaravelCurlftpServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCurlftp": "Yish\\LaravelCurlftp\\LaravelCurlftpFacade"
+            }
+        }
+    }
+}
