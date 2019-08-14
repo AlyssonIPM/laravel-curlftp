@@ -5,7 +5,7 @@
         "yish",
         "laravel-curlftp"
     ],
-    "homepage": "https://github.com/yish/laravel-curlftp",
+    "homepage": "https://github.com/Mombuyish/laravel-curlftp",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -46,10 +46,7 @@
         "laravel": {
             "providers": [
                 "Yish\\LaravelCurlftp\\LaravelCurlftpServiceProvider"
-            ],
-            "aliases": {
-                "LaravelCurlftp": "Yish\\LaravelCurlftp\\LaravelCurlftpFacade"
-            }
+            ]
         }
     }
 }

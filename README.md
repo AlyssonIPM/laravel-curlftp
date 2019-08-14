@@ -1,9 +1,10 @@
-# Very short description of the package
+# Laravel curl-ftp wrapper
+This package is simple to provide `vladimir-yuldashev/flysystem-curlftp` facade with laravel. 
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/yish/laravel-curlftp.svg?style=flat-square)](https://packagist.org/packages/yish/laravel-curlftp)
-[![Build Status](https://img.shields.io/travis/yish/laravel-curlftp/master.svg?style=flat-square)](https://travis-ci.org/yish/laravel-curlftp)
-[![Quality Score](https://img.shields.io/scrutinizer/g/yish/laravel-curlftp.svg?style=flat-square)](https://scrutinizer-ci.com/g/yish/laravel-curlftp)
-[![Total Downloads](https://img.shields.io/packagist/dt/yish/laravel-curlftp.svg?style=flat-square)](https://packagist.org/packages/yish/laravel-curlftp)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Mombuyish/laravel-curlftp.svg?style=flat-square)](https://packagist.org/packages/Mombuyish/laravel-curlftp)
+[![Build Status](https://img.shields.io/travis/Mombuyish/laravel-curlftp/master.svg?style=flat-square)](https://travis-ci.org/Mombuyish/laravel-curlftp)
+[![Quality Score](https://img.shields.io/scrutinizer/g/Mombuyish/laravel-curlftp.svg?style=flat-square)](https://scrutinizer-ci.com/g/Mombuyish/laravel-curlftp)
+[![Total Downloads](https://img.shields.io/packagist/dt/Mombuyish/laravel-curlftp.svg?style=flat-square)](https://packagist.org/packages/Mombuyish/laravel-curlftp)
 
 ## Installation
 
@@ -13,6 +14,10 @@ You can install the package via composer:
 composer require yish/laravel-curlftp
 ```
 
+## Requirement
+
+Laravel 5.8 or 6.*
+
 ## Usage
 In your `config/filesystems.php`, adding driver to support.
 ``` php
@@ -21,7 +26,7 @@ In your `config/filesystems.php`, adding driver to support.
     'host' => 'ftp.example.com',
     'username' => 'username',
     'password' => 'password',
-
+    
     /** optional config settings */
     'port' => 21,
     'root' => '/path/to/root',
@@ -37,12 +42,6 @@ In your `config/filesystems.php`, adding driver to support.
     'proxyUsername' => 'proxyuser',
     'proxyPassword' => 'proxypassword',
 ],
-```
-
-### Testing
-
-``` bash
-composer test
 ```
 
 ### Changelog
@@ -64,7 +63,3 @@ If you discover any security related issues, please email mombuartworks@gmail.co
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
