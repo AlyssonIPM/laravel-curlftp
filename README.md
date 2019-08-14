@@ -1,7 +1,7 @@
 # Laravel curl-ftp
 This package is simple to provide `vladimir-yuldashev/flysystem-curlftp` facade(wrapper) with laravel. 
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Mombuyish/laravel-curlftp.svg?style=flat-square)](https://packagist.org/packages/Mombuyish/laravel-curlftp)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Mombuyish/laravel-curlftp.svg?style=flat-square)](https://packagist.org/packages/yish/laravel-curlftp)
 [![Build Status](https://img.shields.io/travis/Mombuyish/laravel-curlftp/master.svg?style=flat-square)](https://travis-ci.org/Mombuyish/laravel-curlftp)
 [![Quality Score](https://img.shields.io/scrutinizer/g/Mombuyish/laravel-curlftp.svg?style=flat-square)](https://scrutinizer-ci.com/g/Mombuyish/laravel-curlftp)
 [![Total Downloads](https://img.shields.io/packagist/dt/Mombuyish/laravel-curlftp.svg?style=flat-square)](https://packagist.org/packages/Mombuyish/laravel-curlftp)
