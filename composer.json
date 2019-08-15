@@ -3,7 +3,9 @@
     "description": "The curl-ftp filesystem (the wrapper) with laravel.",
     "keywords": [
         "yish",
-        "laravel-curlftp"
+        "laravel",
+        "curlftp",
+        "ftp"
     ],
     "homepage": "https://github.com/Mombuyish/laravel-curlftp",
     "license": "MIT",
@@ -29,11 +31,6 @@
             "Yish\\LaravelCurlftp\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Yish\\LaravelCurlftp\\Tests\\": "tests"
-        }
-    },
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
@@ -48,5 +45,6 @@
                 "Yish\\LaravelCurlftp\\LaravelCurlftpServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
